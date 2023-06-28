@@ -49,6 +49,7 @@ services:
 
     environment:
       # for testcontainer-java
+      # refer: https://java.testcontainers.org/features/configuration/#customizing-docker-host-detection
       - TESTCONTAINERS_HOST_OVERRIDE=host.docker.internal
     # Uncomment the next four lines if you will use a ptrace-based debugger like C++, Go, and Rust.
     # cap_add:
